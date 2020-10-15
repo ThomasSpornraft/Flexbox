@@ -1,1 +1,93 @@
-d
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    background-image: linear-gradient(90deg, #BD255C, #F1572A);
+}
+
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    font-family: 'Raleway';
+    font-weight: normal;
+    background-color: transparent;
+    width: 100vmin;
+    
+    /* box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px 0px;*/
+}
+
+.container {
+    
+    width: 110vmin;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background: transparent;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 15px 0px;
+}
+
+.container-main-item {
+    background-color: #30323A;;
+    height: 20vmin;
+    width:  10vmin;
+    
+    margin-top: 8px;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px 0px;
+}
+
+.profil-o {
+    width: 35vmin;
+    
+}
+
+.about {
+    width: 70vmin;
+}
+
+.profil-u {
+    width: 35vmin;
+    background-color: rgba(100, 100, 100, 0.35);
+}
+
+.contact {
+    width: 70vmin;
+    background-color: rgba(100, 100, 100, 0.35);
+    color: white;
+    
+}
+
+.story {
+    width: calc(105vmin + 16px);
+    height: 40vmin;
+}
+
+.erfahrungen {
+    width: 52.5vmin;
+    height: 40vmin;
+}
+
+.skills {
+    width: 52.5vmin;
+    height: 40vmin;
+}
+
+.sprachen {
+    width: 35vmin;
+}
+
+.hobbies {
+    width: 70vmin;
+    margin-bottom: 10px;
+}
