@@ -42,7 +42,6 @@ body {
 
 .container-main-item {
     background-color: #30323A;
-    ;
     height: 20vmin;
     width: 10vmin;
     margin-top: 8px;
@@ -54,7 +53,12 @@ body {
 }
 
 .about {
+    display: flex;
+    flex-wrap: wrap;
     width: 75vmin;
+    color: #8D8F93;
+    padding: 2vmin;
+    font-size: 1.5vmin;
 }
 
 .profil-u {
@@ -92,7 +96,7 @@ body {
     font-size: 1.7vmin;
 }
 
-.contact .icon {
+.icon {
     margin-right: 24px;
     display: inline-block;
     font-family: 'Material Icons';
@@ -114,7 +118,7 @@ body {
     width: 100%;
     height: 8vmin;
     text-align: center;
-    color: white;
+    color: #8D8F93;
 }
 
 .story-item {
@@ -166,8 +170,51 @@ body {
 }
 
 .erfahrungen {
+    display: flex;
+    flex-wrap: wrap;
     width: 57.5vmin;
     height: 40vmin;
+    font-size: 1.7vmin;
+    padding: 2vmin;
+}
+
+.erfahrungen-title {
+    width: 100%;
+    height: 8vmin;
+    text-align: center;
+    color: #8D8F93;
+}
+
+.erfahrung {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 7vmin;
+}
+
+.erfahrung-content {
+    background-color: yellowgreen;
+    height: 8vmin;
+}
+
+.erfahrung-content .icon {
+    color: orangered;
+}
+
+.erfahrung-content:first-child {
+    background-color: #BD255C;
+    width: 15%;
+}
+
+.erfahrung-content:nth-child(2) {
+    background-color: turquoise;
+    width: 30%;
+}
+
+.erfahrung-content:last-child {
+    background-color: chocolate;
+    width: 55%;
 }
 
 .skills {
