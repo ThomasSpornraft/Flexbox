@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
 
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.7vmin;
 }
 
 html {
@@ -19,18 +24,15 @@ body {
     font-family: 'Raleway';
     font-weight: normal;
     background-color: transparent;
-    width: 100vmin;
-    
+    width: 120vmin;
     /* box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px 0px;*/
 }
 
 .container {
-    
-    width: 110vmin;
-    
+    width: 120vmin;
     margin: auto;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -39,55 +41,84 @@ body {
 }
 
 .container-main-item {
-    background-color: #30323A;;
+    background-color: #30323A;
+    ;
     height: 20vmin;
-    width:  10vmin;
-    
+    width: 10vmin;
     margin-top: 8px;
     box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px 0px;
 }
 
 .profil-o {
-    width: 35vmin;
-    
+    width: 40vmin;
 }
 
 .about {
-    width: 70vmin;
+    width: 75vmin;
 }
 
 .profil-u {
-    width: 35vmin;
+    width: 40vmin;
     background-color: rgba(100, 100, 100, 0.35);
 }
 
 .contact {
-    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 75vmin;
     background-color: rgba(100, 100, 100, 0.35);
     color: white;
-    
+    padding: 10px;
+}
+
+.contact div {
+    display: flex;
+    width: 40%;
+    height: 50%;
+    color: white;
+    font-family: 'Roboto';
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact div:hover {
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 5px 15px 0px;
+}
+
+.contact p {
+    display: inline-block;
+    font-size: 1.7vmin;
+}
+
+.contact .icon {
+    margin-right: 24px;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 4vmin;
+    vertical-align: middle;
 }
 
 .story {
-    width: calc(105vmin + 16px);
+    width: calc(115vmin + 16px);
     height: 40vmin;
 }
 
 .erfahrungen {
-    width: 52.5vmin;
+    width: 57.5vmin;
     height: 40vmin;
 }
 
 .skills {
-    width: 52.5vmin;
+    width: 57.5vmin;
     height: 40vmin;
 }
 
 .sprachen {
-    width: 35vmin;
+    width: 40vmin;
 }
 
 .hobbies {
-    width: 70vmin;
+    width: 75vmin;
     margin-bottom: 10px;
 }
