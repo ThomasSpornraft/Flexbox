@@ -176,11 +176,12 @@ body {
     height: 40vmin;
     font-size: 1.7vmin;
     padding: 2vmin;
+    justify-content: space-around;
 }
 
 .erfahrungen-title {
     width: 100%;
-    height: 8vmin;
+    height: 5vmin;
     text-align: center;
     color: #8D8F93;
 }
@@ -190,12 +191,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 7vmin;
+    height: 10vmin;
 }
 
 .erfahrung-content {
-    background-color: yellowgreen;
-    height: 8vmin;
+    height: 10vmin;
+    color: #8D8F93;
 }
 
 .erfahrung-content .icon {
@@ -203,18 +204,21 @@ body {
 }
 
 .erfahrung-content:first-child {
-    background-color: #BD255C;
     width: 15%;
 }
 
 .erfahrung-content:nth-child(2) {
-    background-color: turquoise;
-    width: 30%;
+    width: 20%;
+    font-family: 'Roboto';
 }
 
 .erfahrung-content:last-child {
-    background-color: chocolate;
-    width: 55%;
+    width: 75%;
+    font-size: 1.4vmin;
+}
+
+.erfahrung-content p {
+    margin-top: 5px;
 }
 
 .skills {
