@@ -102,6 +102,7 @@ body {
     font-family: 'Material Icons';
     font-size: 4vmin;
     vertical-align: middle;
+    font-style: normal;
 }
 
 .story {
@@ -238,6 +239,11 @@ body {
 .skills {
     width: 57.5vmin;
     height: 40vmin;
+}
+
+.skill {
+    width: 200px;
+    height: 200px;
 }
 
 .sprachen {
