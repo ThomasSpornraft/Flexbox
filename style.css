@@ -242,8 +242,12 @@ body {
 }
 
 .skill {
-    width: 200px;
-    height: 200px;
+    background-image: url(js.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    background-color: green;
 }
 
 .sprachen {
