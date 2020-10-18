@@ -169,6 +169,14 @@ body {
     color: white;
 }
 
+.story-item-content h4 {
+    color: white;
+}
+
+.story-item-content p {
+    margin: 1.4vmin 0px;
+}
+
 .erfahrungen {
     display: flex;
     flex-wrap: wrap;
@@ -204,21 +212,27 @@ body {
 }
 
 .erfahrung-content:first-child {
-    width: 15%;
+    width: 13%;
 }
 
 .erfahrung-content:nth-child(2) {
-    width: 20%;
-    font-family: 'Roboto';
+    width: 19%;
+    font-family: 'Consolas';
+    font-size: 1.5vmin;
+    margin-top: 0;
 }
 
 .erfahrung-content:last-child {
-    width: 75%;
+    width: 70%;
     font-size: 1.4vmin;
 }
 
-.erfahrung-content p {
-    margin-top: 5px;
+.erfahrung-content h5 {
+    margin-bottom: 5px;
+}
+
+.erfahrung-content h4 {
+    color: white;
 }
 
 .skills {
